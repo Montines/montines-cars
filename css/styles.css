@@ -1,0 +1,53 @@
+:root {
+  --color-brand-primary: rgb(12, 20, 13);
+  --color-brand-secondary: rgb(5, 177, 28);
+  --color-text-dark: blue;
+  --color-text-light: white;
+  --color-text-special: red;
+}
+
+/* Base */
+body {
+  color: var(--color-brand-primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-text-light);
+  background-color: var(--color-text-dark);
+  border: 2px solid var(--color-text-dark);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-text-light);
+  background-color: var(--color-text-special);
+  border: 2px solid var(--color-text-special);
+}
+
+.link {
+  color: var(--color-brand-primary);
+}
+
+.link:hover {
+  color: var(--color-text-dark);
+}
+
+/* Hero Section */
+.hero-title {
+  color: var(--color-brand-primary);
+}
+
+.hero-title .accent {
+  color: var(--color-brand-secondary);
+}
+
+/* Section title */
+.section-title {
+  color: var(--color-text-dark);
+}
