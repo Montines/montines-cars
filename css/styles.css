@@ -41,6 +41,8 @@ ul {
 /* Hero Section */
 .hero-title {
   color: var(--color-brand-primary);
+  text-align: center;
+  font-size: 64px;
 }
 
 .hero-title .accent {
@@ -50,5 +52,4 @@ ul {
 /* Section title */
 .section-title {
   color: var(--color-text-dark);
-  background-color: var(--color-text-dark);
 }
