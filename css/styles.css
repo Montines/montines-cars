@@ -17,11 +17,13 @@ ul {
 
 /* Button */
 .button {
+  font-size: 24px;
   color: var(--color-text-light);
   background-color: var(--color-text-dark);
   border: 2px solid var(--color-text-dark);
   border-radius: 8px;
   cursor: pointer;
+  padding: 10px;
 }
 
 .button:hover {
