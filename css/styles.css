@@ -50,4 +50,5 @@ ul {
 /* Section title */
 .section-title {
   color: var(--color-text-dark);
+  background-color: var(--color-text-dark);
 }
